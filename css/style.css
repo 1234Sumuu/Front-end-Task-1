@@ -9,8 +9,12 @@
     background-color: #f2f2f2;
 }
 
+img.logo-img {
+    height: 70px;
+}
+
 .content {
-    min-height: 94vh;
+    /* min-height: 94vh; */
     background: url(bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,7 +25,7 @@ header .header-1 {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 
 header .header-1 .logo {
@@ -160,3 +164,87 @@ header .header-2.sticky {
         margin-bottom: 5px;
     }
 }
+
+
+/* Advertise section */
+
+.nav-pills.nav-menu {
+    /* margin-top: 20px; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* background: #F2F2F2; */
+}
+
+.menu-item {
+    background-color: #F2F2F2;
+    margin: 20px;
+    color: #404040;
+    border-radius: 20px;
+}
+
+.nav-pills .menu-item .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ff6500;
+    border-radius: 20px;
+}
+
+button.load {
+    border-radius: 0px;
+    border: none;
+}
+
+
+/* Service section */
+
+
+/* .service-section {
+    width: 100px; 
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-heading {
+    text-align: center;
+}
+
+.service-heading h4 {
+    font-size: 3rem;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.service-heading p {
+    font-size: 1rem;
+    margin: 5px;
+    text-align: center;
+}
+
+.s-box-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-box-container img {
+    height: 75px;
+}
+
+.s-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    margin: 30px;
+} */
